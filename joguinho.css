@@ -1,0 +1,36 @@
+
+.score {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    cursor: url('hammer.png'), auto; 
+}
+
+.grid {
+    display: flex;
+    width: 306px;
+    height: 306px;
+    flex-wrap: wrap;            
+    margin: auto; 
+    position: relative;
+    top: 25px;   
+}       
+
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: gray;
+    border: 1px solid white;
+    position: relative;
+}
+
+.preto {
+    background-image: url('whack-a-mole.png');
+    background-size: 95%;
+    background-color: blue;    
+}
+
+
